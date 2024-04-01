@@ -1,0 +1,11 @@
+controllers:
+    resource:
+        path: ../../src/Infrastructure/Controller/
+        namespace: App\Infrastructure\Controller
+    type: attribute
+    prefix: 'api/v1'
+    trailing_slash_on_root: false
+
+kernel:
+    resource: App\Kernel
+    type: attribute
